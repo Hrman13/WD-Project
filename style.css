@@ -1,0 +1,66 @@
+html,body{
+    height: 100%;
+    margin: 0%;
+    font-size: 16px;
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: grey;
+}
+
+.pimg1{
+    background-image: url(images/imat-bagja-gumilar-jwTvCQQJXh0-unsplash.jpg);
+    min-height: 100%;
+}
+
+.pimg2{
+    background-image: url(images/irina-iriser-2Y4dE8sdhlc-unsplash.jpg);
+    min-height: 400px;
+}
+
+.pimg3{
+    background-image: url(images/sebastian-unrau-sp-p7uuT0tw-unsplash.jpg);
+    min-height: 400px;
+}
+
+.pimg1 ,
+.pimg2 ,
+.pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.textBg{
+    background: rgb(73, 66, 66);
+    color: white;
+    padding: 15px;
+}
+
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+
+.section-light{
+    background-color: white;
+    color: rgb(66, 61, 61);
+}
+
+.section-dark{
+    background-color: rgb(41, 54, 41);
+    color: white;
+}
